@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Protect">
+    tools:context=".screens.Protect">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/protect"
@@ -16,7 +16,7 @@
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="40dp"
             android:text="@string/takecare"
             android:textColor="@color/black"
             android:textSize="30sp"
@@ -30,7 +30,8 @@
             android:id="@+id/imageArrowBack"
             android:layout_width="30dp"
             android:layout_height="40dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="30dp"
             android:src="@drawable/arrow_back"
             android:tint="@color/black"
             app:layout_constraintEnd_toStartOf="@+id/textView2"
@@ -40,9 +41,11 @@
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="76dp"
+            android:layout_width="367dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
             android:text="@string/howto"
             android:textColor="@color/darkblue"
             android:textSize="25sp"
@@ -52,25 +55,13 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cardView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="12dp"
-            app:cardCornerRadius="12dp"
-            app:cardElevation="6dp"
-            app:layout_constraintTop_toBottomOf="@id/textView"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent">
-
-
-        </androidx.cardview.widget.CardView>
 
         <ImageView
             android:id="@+id/dontshare"
             android:layout_width="162dp"
             android:layout_height="150dp"
             android:layout_marginTop="61dp"
+            android:layout_marginStart="20dp"
             android:src="@drawable/dontsharestuff"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.064"
@@ -94,6 +85,7 @@
             android:layout_height="150dp"
             android:src="@drawable/urhand"
             android:layout_marginTop="25dp"
+            android:layout_marginStart="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.064"
             app:layout_constraintStart_toStartOf="parent"

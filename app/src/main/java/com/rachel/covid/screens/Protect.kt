@@ -1,7 +1,8 @@
-package com.rachel.covid
+package com.rachel.covid.screens
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.rachel.covid.R
 
 class Protect : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
