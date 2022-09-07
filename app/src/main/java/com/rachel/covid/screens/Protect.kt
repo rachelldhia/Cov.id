@@ -1,11 +1,12 @@
-package com.rachel.covid
+package com.rachel.covid.screens
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.rachel.covid.R
 
-class MainActivity : AppCompatActivity() {
+class Protect : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_protect)
     }
 }

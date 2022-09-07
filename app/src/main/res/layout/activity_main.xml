@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".screens.MainActivity"
     android:background="@drawable/bg">
 
 
@@ -243,6 +243,15 @@
                 </LinearLayout>
             </LinearLayout>
 
+            <TextView
+                android:id="@+id/connection_error"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toBottomOf="@id/view_details_two"
+                android:gravity="center"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -285,9 +294,11 @@
             <Button
                 android:layout_width="125dp"
                 android:layout_height="40dp"
-                android:background="#CEDFE7"
+                android:backgroundTint="@color/white"
                 android:fontFamily="sans-serif"
                 android:text="@string/check_it"
+                android:textColor="@color/blue3"
+                android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.931"
