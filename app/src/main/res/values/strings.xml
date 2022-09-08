@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Cov.id</string>
     <string name="takecare">special guide for you</string>
-    <string name="howto">how to protect yourself and other, from covid19 ?</string>
+    <string name="howto">how to protect yourself and others from COVID19?</string>
     <string name="covid_19">Covid 19</string>
     <string name="prottect_your_self_and_your_fammily_from_covid">Prottect your self and your fammily from Covid</string>
     <string name="kasus">Kasus</string>
@@ -41,7 +41,6 @@
     <string name="kalimantan_barat">Kalimantan Barat</string>
     <string name="kalimantan_tengah">Kalimantan Tengah</string>
     <string name="kalimantan_selatan">Kalimantan Selatan</string>
-    <string name="kalimantan_timur">Kalimantan Timur</string>
     <string name="kalimantan_timur">Kalimantan Timur</string>
     <string name="maluku">Maluku</string>
     <string name="maluku_utara">Maluku Utara</string>
