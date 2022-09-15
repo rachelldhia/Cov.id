@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">Cov.id</string>
-    <string name="takecare">special guide for you</string>
+    <string name="takecare">Special Guide For You</string>
     <string name="howto">how to protect yourself and others from COVID19?</string>
     <string name="covid_19">Covid 19</string>
-    <string name="prottect_your_self_and_your_fammily_from_covid">Prottect your self and your fammily from Covid</string>
+    <string name="prottect_your_self_and_your_fammily_from_covid">Protect yourselves and your family from Covid</string>
     <string name="kasus">Kasus</string>
     <string name="jumlah">jumlah</string>
     <string name="sembuh">Sembuh</string>
@@ -50,4 +50,5 @@
     <string name="papua_tengah">Papua Tengah</string>
     <string name="papua_pegunungan">Papua Pegunungan</string>
     <string name="sumatra_utara">Sumatra Utara</string>
+    <string name="please_wait">Please Wait</string>
 </resources>

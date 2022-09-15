@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".screens.MainActivity"
+    tools:context=".MainActivity"
     android:background="@drawable/bg">
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -68,8 +68,8 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/view_details"
             android:layout_width="286dp"
-            android:layout_height="242dp"
-            android:layout_marginTop="52dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.496"
             app:layout_constraintStart_toStartOf="parent"
@@ -83,18 +83,21 @@
                 android:text="@string/dki_jakarta"
                 android:textColor="@color/black"
                 android:textSize="20sp"
+                android:layout_marginStart="20dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <Button
+                android:id="@+id/btn_prov"
                 android:layout_width="84dp"
                 android:layout_height="32dp"
                 android:backgroundTint="@color/white"
                 android:text="@string/change"
                 android:textColor="@color/blue3"
                 android:textSize="10dp"
+                android:layout_marginEnd="10dp"
                 app:layout_constraintBottom_toTopOf="@+id/view_details_one"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.965"
@@ -105,7 +108,7 @@
                 android:id="@+id/view_details_one"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
+                android:layout_margin="15dp"
                 android:orientation="horizontal"
                 android:weightSum="2"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -176,7 +179,7 @@
                 android:id="@+id/view_details_two"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="5dp"
+                android:layout_margin="15dp"
                 android:layout_marginTop="10dp"
                 android:orientation="horizontal"
                 android:weightSum="2"
@@ -259,7 +262,7 @@
             android:id="@+id/constraintLayout"
             android:layout_width="357dp"
             android:layout_height="174dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="60dp"
             android:background="@drawable/bg_blueroyal"
             android:padding="15dp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -275,10 +278,10 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.063"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.8" />
+                app:layout_constraintTop_toTopOf="parent"/>
 
             <TextView
+                android:id="@+id/how"
                 android:layout_width="151dp"
                 android:layout_height="62dp"
                 android:text="@string/how_to_protect_yourself_from_covid"
@@ -292,6 +295,7 @@
                 app:layout_constraintVertical_bias="0.252" />
 
             <Button
+                android:id="@+id/btn_prevent"
                 android:layout_width="125dp"
                 android:layout_height="40dp"
                 android:backgroundTint="@color/white"
@@ -300,11 +304,9 @@
                 android:textColor="@color/blue3"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.931"
-                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintStart_toStartOf="@id/how"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.947" />
+                app:layout_constraintVertical_bias="0.865" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
