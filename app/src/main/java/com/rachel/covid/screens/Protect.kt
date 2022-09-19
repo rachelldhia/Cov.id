@@ -13,6 +13,7 @@ class Protect : AppCompatActivity() {
         setContentView(R.layout.activity_protect)
 
         btnBack()
+        supportActionBar?.hide()
     }
 
     private fun btnBack() {
