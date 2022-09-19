@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".screens.Protect"
-    android:background="@drawable/protectbg">
+    android:background="@drawable/bacg">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/protect"
@@ -20,7 +20,7 @@
             android:layout_marginTop="40dp"
             android:text="@string/takecare"
             android:textColor="@color/black"
-            android:textSize="30sp"
+            android:textSize="25sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.574"
@@ -32,27 +32,30 @@
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginStart="30dp"
-            android:layout_marginTop="48dp"
+            android:layout_marginTop="44dp"
             android:background="@drawable/arrow_back"
-            android:drawableTint="@color/black"
             app:layout_constraintEnd_toStartOf="@+id/textView2"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent" />
+
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="320dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="90dp"
+            android:layout_marginTop="48dp"
             android:gravity="center"
             android:text="@string/howto"
             android:textColor="@color/darkblue"
-            android:textSize="25sp"
+            android:textSize="20sp"
             android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
+            app:layout_constraintTop_toBottomOf="@+id/textView2"
+            app:layout_constraintVertical_bias="0.074" />
 
         <ImageView
             android:id="@+id/dontshare"
@@ -63,16 +66,17 @@
             app:layout_constraintHorizontal_bias="0.064"
             app:layout_constraintStart_toStartOf="@id/washurhand"
             app:layout_constraintTop_toBottomOf="@+id/textView"
-            android:elevation="2dp"/>
+            android:elevation="3dp"/>
 
         <ImageView
             android:id="@+id/stayathome"
             android:layout_width="162dp"
             android:layout_height="150dp"
             android:layout_marginTop="84dp"
+            android:elevation="3dp"
             android:src="@drawable/stay"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.827"
+            app:layout_constraintHorizontal_bias="0.871"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -80,25 +84,27 @@
             android:id="@+id/washurhand"
             android:layout_width="162dp"
             android:layout_height="150dp"
-            android:layout_marginTop="40dp"
             android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:elevation="3dp"
             android:src="@drawable/wash"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintHorizontal_bias="0.043"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/dontshare"
-            app:layout_constraintVertical_bias="0.0" />
+            app:layout_constraintVertical_bias="1.0" />
 
         <ImageView
             android:id="@+id/seperated"
             android:layout_width="162dp"
             android:layout_height="150dp"
             android:layout_marginTop="252dp"
+            android:elevation="3dp"
             android:src="@drawable/seperated"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.827"
+            app:layout_constraintHorizontal_bias="0.875"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView"
             app:layout_constraintVertical_bias="1.0" />
