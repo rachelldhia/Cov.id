@@ -4,28 +4,43 @@
         <item>@string/dki_jakarta</item>
         <item>@string/jawa_barat</item>
         <item>@string/jawa_tengah</item>
+        <item>@string/banten</item>
+        <item>@string/daerah_istimewa_yogyakarta</item>
         <item>@string/jawa_timur</item>
-        <item>@string/dki_jakarta</item>
-        <item>@string/dki_jakarta</item>
-        <item>@string/dki_jakarta</item>
-        <item>@string/dki_jakarta</item>
-        <item>@string/dki_jakarta</item>
-        <item>@string/dki_jakarta</item>
-        <item>@string/dki_jakarta</item>
-        <item>@string/dki_jakarta</item>
-        <item>@string/dki_jakarta</item>
-        <item>@string/dki_jakarta</item>
-        <item>@string/dki_jakarta</item>
-        <item>@string/dki_jakarta</item>
-        <item>@string/dki_jakarta</item>
-        <item>@string/dki_jakarta</item>
-        <item>@string/dki_jakarta</item>
-        <item>@string/dki_jakarta</item>
-        <item>@string/dki_jakarta</item>
-        <item>@string/dki_jakarta</item>
-        <item>@string/dki_jakarta</item>
-        <item>@string/dki_jakarta</item>
-        <item>@string/dki_jakarta</item>
+        <item>@string/bali</item>
+        <item>@string/nusa_tenggara_barat</item>
+        <item>@string/nusa_tenggara_timur</item>
+        <item>@string/sulawesi_utara</item>
+        <item>@string/sulawesi_barat</item>
+        <item>@string/sulawesi_tengah</item>
+        <item>@string/sulawesi_tenggara</item>
+        <item>@string/sulawesi_selatan</item>
+        <item>@string/gorontalo</item>
+        <item>@string/naggroe_aceh_darussalam</item>
+        <item>@string/sumatra_barat</item>
+        <item>@string/riau</item>
+        <item>@string/kepulauan_riau</item>
+        <item>@string/jambi</item>
+        <item>@string/sumatra_selatan</item>
+        <item>@string/bangka_belitung</item>
+        <item>@string/bengkulu</item>
+        <item>@string/lampung</item>
+        <item>@string/kalimantan_utara</item>
+        <item>@string/kalimantan_barat</item>
+        <item>@string/kalimantan_tengah</item>
+        <item>@string/kalimantan_selatan</item>
+        <item>@string/kalimantan_timur</item>
+        <item>@string/maluku</item>
+        <item>@string/maluku_utara</item>
+        <item>@string/papua</item>
+        <item>@string/papua_selatan</item>
+        <item>@string/papua_barat</item>
+        <item>@string/papua_tengah</item>
+        <item>@string/papua_pegunungan</item>
+        <item>@string/sumatra_utara</item>
 
     </array>
 </resources>
+
+
+
