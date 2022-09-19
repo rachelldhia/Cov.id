@@ -75,42 +75,26 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/view_degree">
 
-            <TextView
-                android:id="@+id/tv_provinsi"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:text="@string/dki_jakarta"
-                android:textColor="@color/black"
-                android:textSize="20sp"
-                android:layout_marginStart="20dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
             <com.toptoche.searchablespinnerlibrary.SearchableSpinner
                 android:id="@+id/spinnerProvinsi"
                 android:layout_width="match_parent"
                 android:layout_height="45dp"
-                android:layout_below="@+id/tv_provinsi"
+                android:entries="@array/provinceName"
                 android:spinnerMode="dropdown"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
+                app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/ic_rounded_line"/>
 
-
-            <Button
-                android:id="@+id/btn_prov"
+            <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/white"
-                android:text="@string/change"
-                android:textColor="@color/blue3"
-                android:textSize="12sp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.965"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:src="@drawable/ic_spinner"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
 
             <LinearLayout
                 android:id="@+id/view_details_one"
@@ -121,7 +105,7 @@
                 android:weightSum="2"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/tv_provinsi">
+                app:layout_constraintTop_toBottomOf="@id/spinnerProvinsi">
 
                 <LinearLayout
                     android:id="@+id/view_kasus"

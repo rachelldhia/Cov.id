@@ -1,6 +1,7 @@
 package com.rachel.covid
 
 import android.annotation.SuppressLint
+import android.app.ProgressDialog
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -9,7 +10,6 @@ import android.widget.TextView
 import com.google.gson.Gson
 import com.rachel.covid.Model.Request
 import com.rachel.covid.databinding.ActivityMainBinding
-import com.rachel.covid.screens.ListProvince
 import com.rachel.covid.screens.Protect
 import java.io.InputStreamReader
 import java.net.URL
@@ -18,6 +18,8 @@ import javax.net.ssl.HttpsURLConnection
 class MainActivity : AppCompatActivity()
 {
     private lateinit var binding: ActivityMainBinding
+    var progressDialog: ProgressDialog? = null
+
 
 
     override fun onCreate(savedInstanceState: Bundle?)
@@ -72,12 +74,9 @@ class MainActivity : AppCompatActivity()
         }
     }
 
-    private fun provinceAndWays(){
-        val btnProv = findViewById<Button>(R.id.btn_prov)
-        btnProv.setOnClickListener{
-            startActivity(Intent(this, ListProvince::class.java))
-        }
 
+
+    private fun provinceAndWays(){
         val btnPrevent = findViewById<Button>(R.id.btn_prevent)
         btnPrevent.setOnClickListener{
             startActivity(Intent(this, Protect::class.java))

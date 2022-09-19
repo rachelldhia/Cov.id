@@ -3,10 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/drawable/arrow_back.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_protect.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.18885869565217392" />
+        <entry key="..\:/Users/AppleInTheRayn/AndroidStudioProjects/Cov.id/app/src/main/res/drawable/arrow_back.xml" value="0.1385" />
+        <entry key="..\:/Users/AppleInTheRayn/AndroidStudioProjects/Cov.id/app/src/main/res/drawable/bg_detail3.xml" value="0.1385" />
+        <entry key="..\:/Users/AppleInTheRayn/AndroidStudioProjects/Cov.id/app/src/main/res/drawable/bg_detail4.xml" value="0.1385" />
+        <entry key="..\:/Users/AppleInTheRayn/AndroidStudioProjects/Cov.id/app/src/main/res/drawable/bg_how.xml" value="0.1385" />
+        <entry key="..\:/Users/AppleInTheRayn/AndroidStudioProjects/Cov.id/app/src/main/res/drawable/ic_rounded_line.xml" value="0.1385" />
+        <entry key="..\:/Users/AppleInTheRayn/AndroidStudioProjects/Cov.id/app/src/main/res/drawable/ic_spinner.xml" value="0.1" />
+        <entry key="..\:/Users/AppleInTheRayn/AndroidStudioProjects/Cov.id/app/src/main/res/layout/activity_list_provinsi.xml" value="0.1984375" />
+        <entry key="..\:/Users/AppleInTheRayn/AndroidStudioProjects/Cov.id/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/AppleInTheRayn/AndroidStudioProjects/Cov.id/app/src/main/res/layout/activity_protect.xml" value="0.22" />
+        <entry key="..\:/Users/AppleInTheRayn/AndroidStudioProjects/Cov.id/app/src/main/res/layout/activity_splash_screen.xml" value="0.10461956521739131" />
+        <entry key="..\:/Users/AppleInTheRayn/AndroidStudioProjects/Cov.id/app/src/main/res/layout/item_profinsi.xml" value="0.1984375" />
       </map>
     </option>
   </component>
