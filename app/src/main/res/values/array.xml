@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="provinceName">
+        <item>@string/dki_jakarta</item>
+        <item>@string/jawa_barat</item>
+        <item>@string/jawa_tengah</item>
+        <item>@string/jawa_timur</item>
+        <item>@string/dki_jakarta</item>
+        <item>@string/dki_jakarta</item>
+        <item>@string/dki_jakarta</item>
+        <item>@string/dki_jakarta</item>
+        <item>@string/dki_jakarta</item>
+        <item>@string/dki_jakarta</item>
+        <item>@string/dki_jakarta</item>
+        <item>@string/dki_jakarta</item>
+        <item>@string/dki_jakarta</item>
+        <item>@string/dki_jakarta</item>
+        <item>@string/dki_jakarta</item>
+        <item>@string/dki_jakarta</item>
+        <item>@string/dki_jakarta</item>
+        <item>@string/dki_jakarta</item>
+        <item>@string/dki_jakarta</item>
+        <item>@string/dki_jakarta</item>
+        <item>@string/dki_jakarta</item>
+        <item>@string/dki_jakarta</item>
+        <item>@string/dki_jakarta</item>
+        <item>@string/dki_jakarta</item>
+        <item>@string/dki_jakarta</item>
+
+    </array>
+</resources>
