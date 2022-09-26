@@ -4,8 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/AppleInTheRayn/AndroidStudioProjects/Cov.id/app/src/main/res/drawable/arrow_back.xml" value="0.1385" />
+        <entry key="..\:/Users/AppleInTheRayn/AndroidStudioProjects/Cov.id/app/src/main/res/drawable/bg_bluepastel.xml" value="0.12" />
+        <entry key="..\:/Users/AppleInTheRayn/AndroidStudioProjects/Cov.id/app/src/main/res/drawable/bg_blueroyal.xml" value="0.12" />
+        <entry key="..\:/Users/AppleInTheRayn/AndroidStudioProjects/Cov.id/app/src/main/res/drawable/bg_detail.xml" value="0.12" />
         <entry key="..\:/Users/AppleInTheRayn/AndroidStudioProjects/Cov.id/app/src/main/res/drawable/bg_detail3.xml" value="0.1385" />
         <entry key="..\:/Users/AppleInTheRayn/AndroidStudioProjects/Cov.id/app/src/main/res/drawable/bg_detail4.xml" value="0.1385" />
+        <entry key="..\:/Users/AppleInTheRayn/AndroidStudioProjects/Cov.id/app/src/main/res/drawable/bg_detail5.xml" value="0.12" />
         <entry key="..\:/Users/AppleInTheRayn/AndroidStudioProjects/Cov.id/app/src/main/res/drawable/bg_how.xml" value="0.1385" />
         <entry key="..\:/Users/AppleInTheRayn/AndroidStudioProjects/Cov.id/app/src/main/res/drawable/ic_rounded_line.xml" value="0.1385" />
         <entry key="..\:/Users/AppleInTheRayn/AndroidStudioProjects/Cov.id/app/src/main/res/drawable/ic_spinner.xml" value="0.1" />
@@ -14,6 +18,7 @@
         <entry key="..\:/Users/AppleInTheRayn/AndroidStudioProjects/Cov.id/app/src/main/res/layout/activity_protect.xml" value="0.22" />
         <entry key="..\:/Users/AppleInTheRayn/AndroidStudioProjects/Cov.id/app/src/main/res/layout/activity_splash_screen.xml" value="0.10461956521739131" />
         <entry key="..\:/Users/AppleInTheRayn/AndroidStudioProjects/Cov.id/app/src/main/res/layout/item_profinsi.xml" value="0.1984375" />
+        <entry key="..\:/Users/AppleInTheRayn/AndroidStudioProjects/Cov.id/app/src/main/res/layout/spinner_item.xml" value="0.19739583333333333" />
       </map>
     </option>
   </component>
