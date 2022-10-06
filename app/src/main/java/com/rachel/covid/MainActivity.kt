@@ -16,9 +16,12 @@ import java.net.URL
 import javax.net.ssl.HttpsURLConnection
 
 @Suppress("DEPRECATION")
-class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
+class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
-    lateinit var strProvince: Array<String>
+    private lateinit var strProvince: Array<String>
+    var strProvinceSelected: String = ""
+
+    lateinit var request: Request
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -39,15 +42,21 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
         )
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
         spinner.adapter = adapter
-        spinner.onItemSelectedListener = this
-    }
+        spinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
+            override fun onItemSelected(parent: AdapterView<*>?, view: View, position: Int, id: Long) {
+                if (parent != null) {
+                    strProvinceSelected = parent.getItemAtPosition(position).toString()
+                }
+                val uppercase = strProvinceSelected.uppercase()
 
-    override fun onNothingSelected(parent: AdapterView<*>?) {
-        Toast.makeText( this@MainActivity, "Nothing Selected", Toast.LENGTH_SHORT).show()
+                if(uppercase == request.listData[position].key){
+                    updateUI(request)
+                }
+            }
 
-    }
-    override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-        val text: String = parent?.getItemAtPosition(position).toString()
+            override fun onNothingSelected(adapterView: AdapterView<*>?) {
+            }
+        }
     }
 
     @SuppressLint("SetTextI18n")
@@ -80,15 +89,15 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
     private fun updateUI(request: Request) {
         runOnUiThread {
             kotlin.run {
-                for (i in request.list_data.indices) {
+                for (i in request.listData.indices) {
                     val tvKasus: TextView = findViewById(R.id.tv_kasus)
-                    tvKasus.text = request.list_data[i].jumlah_kasus.toString()
+                    tvKasus.text = request.listData[i].jumlahKasus.toString()
                     val tvSembuh: TextView = findViewById(R.id.tv_sembuh)
-                    tvSembuh.text = request.list_data[i].jumlah_sembuh.toString()
+                    tvSembuh.text = request.listData[i].jumlahSembuh.toString()
                     val tvMeninggal: TextView = findViewById(R.id.tv_meninggal)
-                    tvMeninggal.text = request.list_data[i].jumlah_meninggal.toString()
+                    tvMeninggal.text = request.listData[i].jumlahMeninggal.toString()
                     val tvDirawat: TextView = findViewById(R.id.tv_dirawat)
-                    tvDirawat.text = request.list_data[i].jumlah_dirawat.toString()
+                    tvDirawat.text = request.listData[i].jumlahDirawat.toString()
                 }
             }
         }
